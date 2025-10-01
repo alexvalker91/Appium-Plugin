@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>epam.auto.utt.plugins</groupId>
+    <artifactId>appium</artifactId>
+    <version>0.1.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <parent>
+        <groupId>epam.auto.utt.plugins</groupId>
+        <artifactId>base</artifactId>
+        <version>0.1.0-SNAPSHOT</version>
+    </parent>
+
+    <repositories>
+        <repository>
+            <releases>
+                <updatePolicy>never</updatePolicy>
+            </releases>
+            <snapshots>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+            <id>epam.jfrog</id>
+            <name>artifactory.epam.com</name>
+            <url>https://artifactory.epam.com/artifactory/nwi-ddc_awn</url>
+        </repository>
+    </repositories>
+    <distributionManagement>
+        <repository>
+            <id>epam.jfrog</id>
+            <name>artifactory.epam.com-releases</name>
+            <url>https://artifactory.epam.com/artifactory/nwi-ddc_awn-release</url>
+        </repository>
+        <snapshotRepository>
+            <id>epam.jfrog</id>
+            <name>artifactory.epam.com-snapshots</name>
+            <url>https://artifactory.epam.com/artifactory/nwi-ddc_awn-snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>epam.auto.utt</groupId>
+            <artifactId>tat-core</artifactId>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.appium</groupId>
+            <artifactId>java-client</artifactId>
+            <version>10.0.0</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>

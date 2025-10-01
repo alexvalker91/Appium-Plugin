@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AWN_Test entity_id="1233914" version="1">
+    <AWN_Description>
+        <Case_Name>Simple_Delay_Test</Case_Name>
+        <Type>BASIC</Type>
+        <Case_Code/>
+        <Awn_ExecutionCondition>next</Awn_ExecutionCondition>
+        <Tags/>
+        <Links/>
+    </AWN_Description>
+    <Awn_VarsIn/>
+    <Awn_Steps>
+        <Awn_Step entity_id="1446025" id="Delay_Step">
+            <Step_Action action="epam.auto.utt.plugins.general.actions.Delay">
+                <text/>
+            </Step_Action>
+            <Step_Data>
+                <Block_Data>
+                    <Meaning meaning_type="delay">
+                        <value>5</value>
+                    </Meaning>
+                </Block_Data>
+            </Step_Data>
+            <Step_Results>
+                <Block_Results/>
+            </Step_Results>
+            <Step_Execute Execute="true"/>
+        </Awn_Step>
+    </Awn_Steps>
+    <Awn_Criterias/>
+</AWN_Test>
