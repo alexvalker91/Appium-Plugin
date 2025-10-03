@@ -1,0 +1,63 @@
+<Root>
+    <Awn_Step id="ClickLogin">
+        <Step_Action action="StepAction1">
+            <text/>
+        </Step_Action>
+        <Step_Data>
+            <Block_Data>
+                <Meaning meaning_type="id">
+                    <lbl>label_id</lbl>
+                    <value>login_button</value>
+                    <variable/>
+                </Meaning>
+            </Block_Data>
+        </Step_Data>
+        <Step_Results>
+            <Block_Results/>
+        </Step_Results>
+        <Step_Execute Execute="true"/>
+    </Awn_Step>
+
+    <Awn_Step id="NavigateToSite">
+        <Step_Action action="WebBrowserNavigation">
+            <text/>
+        </Step_Action>
+        <Step_Data>
+            <Block_Data>
+                <Meaning meaning_type="url">
+                    <lbl>target</lbl>
+                    <value>https://example.com</value>
+                    <variable/>
+                </Meaning>
+            </Block_Data>
+        </Step_Data>
+        <Step_Results>
+            <Block_Results/>
+        </Step_Results>
+        <Step_Execute Execute="true"/>
+    </Awn_Step>
+
+    <Awn_Step id="EnterUsername">
+        <Step_Action action="SetText">
+            <text/>
+        </Step_Action>
+        <Step_Data>
+            <Block_Data>
+                <Meaning meaning_type="id">
+                    <lbl>username_field</lbl>
+                    <value>username</value>
+                    <variable/>
+                </Meaning>
+                <Meaning meaning_type="text">
+                    <lbl>input</lbl>
+                    <value>john</value>
+                    <variable/>
+                </Meaning>
+            </Block_Data>
+        </Step_Data>
+        <Step_Results>
+            <Block_Results/>
+        </Step_Results>
+        <Step_Execute Execute="true"/>
+    </Awn_Step>
+</Root>

@@ -1,0 +1,11 @@
+com/awn/plugin/core/AppiumDriverManager.class
+com/awn/plugin/model/StepData.class
+com/awn/plugin/actions/WebBrowserNavigation.class
+com/awn/plugin/PluginRunner.class
+com/awn/plugin/actions/BaseAction.class
+com/awn/plugin/model/AwnStep.class
+com/awn/plugin/model/XMLValueNode.class
+com/awn/plugin/actions/SetTextAction.class
+com/awn/plugin/actions/ClickAction.class
+com/awn/plugin/parser/AwnXmlParser.class
+com/awn/plugin/core/ActionFactory.class

@@ -1,0 +1,11 @@
+/workspace/src/main/java/com/awn/plugin/PluginRunner.java
+/workspace/src/main/java/com/awn/plugin/model/AwnStep.java
+/workspace/src/main/java/com/awn/plugin/actions/BaseAction.java
+/workspace/src/main/java/com/awn/plugin/actions/WebBrowserNavigation.java
+/workspace/src/main/java/com/awn/plugin/actions/SetTextAction.java
+/workspace/src/main/java/com/awn/plugin/parser/AwnXmlParser.java
+/workspace/src/main/java/com/awn/plugin/model/StepData.java
+/workspace/src/main/java/com/awn/plugin/model/XMLValueNode.java
+/workspace/src/main/java/com/awn/plugin/actions/ClickAction.java
+/workspace/src/main/java/com/awn/plugin/core/AppiumDriverManager.java
+/workspace/src/main/java/com/awn/plugin/core/ActionFactory.java
