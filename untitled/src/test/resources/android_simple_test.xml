@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AWN_Test entity_id="1233914" version="1">
+    <AWN_Description>
+        <Case_Name>My_Test</Case_Name>
+        <Type>BASIC</Type>
+        <Case_Code/>
+        <Awn_ExecutionCondition>next</Awn_ExecutionCondition>
+        <Tags/>
+        <Links/>
+    </AWN_Description>
+    <Awn_VarsIn/>
+    <Awn_Steps>
+        <Awn_Step entity_id="1" id="Configuration appium">
+            <Step_Action action="epam.auto.utt.plugins.appium.actions.ConfigurationAction">
+                <text/>
+            </Step_Action>
+            <Step_Data>
+                <Block_Data>
+                    <Meaning meaning_type="appium:automationName">
+                        <lbl>UIAutomator2</lbl>
+                    </Meaning>
+                </Block_Data>
+                <Block_Data>
+                    <Meaning meaning_type="appium:platformVersion">
+                        <lbl>13</lbl>
+                    </Meaning>
+                </Block_Data>
+                <Block_Data>
+                    <Meaning meaning_type="appium:deviceName">
+                        <lbl>samsung SM-A515F</lbl>
+                    </Meaning>
+                </Block_Data>
+                <Block_Data>
+                    <Meaning meaning_type="platformName">
+                        <lbl>Android</lbl>
+                    </Meaning>
+                </Block_Data>
+                <Block_Data>
+                    <Meaning meaning_type="appium:app">
+                        <lbl>C:/Users/AliaksandrKreyer/Desktop/my/repositories/Appium-Plugin/untitled/src/test/resources/apk/quiz.apk</lbl>
+                    </Meaning>
+                </Block_Data>
+                <Block_Data>
+                    <Meaning meaning_type="url">
+                        <lbl>http://127.0.0.1:4724</lbl>
+                    </Meaning>
+                </Block_Data>
+            </Step_Data>
+            <Step_Results>
+                <Block_Results/>
+            </Step_Results>
+            <Step_Execute Execute="true"/>
+        </Awn_Step>
+        <Awn_Step entity_id="2" id="Interaction with elements 1">
+            <Step_Action action="epam.auto.utt.plugins.appium.actions.WebElementAction">
+                <text/>
+            </Step_Action>
+            <Step_Data>
+                <Block_Data>
+                    <Meaning meaning_type="web_element_locator">
+                        <variable>XPATH</variable>
+                        <value>//android.widget.RadioGroup[@resource-id='com.rsschool.quiz:id/radio_group']/android.widget.RadioButton</value>
+                    </Meaning>
+                    <Meaning feature="1" meaning_type="web_element_action_multiple">
+                        <lbl>VISIBLE</lbl>
+                        <variable>WAIT_UNTIL</variable>
+                        <value>5</value>
+                    </Meaning>
+                    <Meaning feature="1" meaning_type="web_element_action_multiple">
+                        <variable>CLICK</variable>
+                    </Meaning>
+                </Block_Data>
+            </Step_Data>
+            <Step_Results>
+                <Block_Results/>
+            </Step_Results>
+            <Step_Execute Execute="true"/>
+        </Awn_Step>
+        <Awn_Step entity_id="3" id="Interaction with elements 2">
+            <Step_Action action="epam.auto.utt.plugins.appium.actions.WebElementAction">
+                <text/>
+            </Step_Action>
+            <Step_Data>
+                <Block_Data>
+                    <Meaning meaning_type="web_element_locator">
+                        <variable>XPATH</variable>
+                        <value>//android.widget.Button[@resource-id="com.rsschool.quiz:id/next_button"]</value>
+                    </Meaning>
+                    <Meaning feature="0" meaning_type="web_element_action_multiple">
+                        <lbl>ENABLED</lbl>
+                        <variable>WAIT_UNTIL</variable>
+                        <value>5</value>
+                    </Meaning>
+                    <Meaning feature="0" meaning_type="web_element_action_multiple">
+                        <variable>CLICK</variable>
+                    </Meaning>
+                </Block_Data>
+            </Step_Data>
+            <Step_Results>
+                <Block_Results/>
+            </Step_Results>
+            <Step_Execute Execute="true"/>
+        </Awn_Step>
+        <Awn_Step entity_id="4" id="Interaction with elements 3">
+            <Step_Action action="epam.auto.utt.plugins.appium.actions.WebElementAction">
+                <text/>
+            </Step_Action>
+            <Step_Data>
+                <Block_Data>
+                    <Meaning meaning_type="web_element_locator">
+                        <variable>XPATH</variable>
+                        <value>//android.widget.RadioGroup[@resource-id='com.rsschool.quiz:id/radio_group']/android.widget.RadioButton</value>
+                    </Meaning>
+                    <Meaning feature="1" meaning_type="web_element_action_multiple">
+                        <lbl>VISIBLE</lbl>
+                        <variable>WAIT_UNTIL</variable>
+                        <value>5</value>
+                    </Meaning>
+                    <Meaning feature="1" meaning_type="web_element_action_multiple">
+                        <variable>CLICK</variable>
+                    </Meaning>
+                </Block_Data>
+            </Step_Data>
+            <Step_Results>
+                <Block_Results/>
+            </Step_Results>
+            <Step_Execute Execute="true"/>
+        </Awn_Step>
+        <Awn_Step entity_id="5" id="Interaction with elements 4">
+            <Step_Action action="epam.auto.utt.plugins.appium.actions.WebElementAction">
+                <text/>
+            </Step_Action>
+            <Step_Data>
+                <Block_Data>
+                    <Meaning meaning_type="web_element_locator">
+                        <variable>XPATH</variable>
+                        <value>//android.widget.Button[@resource-id="com.rsschool.quiz:id/next_button"]</value>
+                    </Meaning>
+                    <Meaning feature="0" meaning_type="web_element_action_multiple">
+                        <lbl>ENABLED</lbl>
+                        <variable>WAIT_UNTIL</variable>
+                        <value>5</value>
+                    </Meaning>
+                    <Meaning feature="0" meaning_type="web_element_action_multiple">
+                        <variable>CLICK</variable>
+                    </Meaning>
+                </Block_Data>
+            </Step_Data>
+            <Step_Results>
+                <Block_Results/>
+            </Step_Results>
+            <Step_Execute Execute="true"/>
+        </Awn_Step>
+    </Awn_Steps>
+    <Awn_Criterias/>
+</AWN_Test>

@@ -6,12 +6,12 @@ import org.testng.annotations.Test;
 import java.io.File;
 import java.net.URL;
 
-public class MyTest {
+public class SimpleTests {
 
     @Test
-    public void simpleDelayTest() {
+    public void simpleTest() {
         UttClassLoader cl = new UttClassLoader(new URL[0], ClassLoader.getSystemClassLoader());
-        String testpath ="C:\\Users\\AliaksandrKreyer\\Desktop\\my\\repositories\\Appium-Plugin\\untitled\\src\\test\\resources\\Simple_Delay_Test.xml";
+        String testpath ="C:\\Users\\AliaksandrKreyer\\Desktop\\my\\repositories\\Appium-Plugin\\untitled\\src\\test\\resources\\android_simple_test.xml";
         new TestRunner(new File(testpath), new Config().setClassLoader(cl)).run();
     }
 }
